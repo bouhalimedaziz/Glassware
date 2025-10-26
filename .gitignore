@@ -1,24 +1,68 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# Node modules
+node_modules/
 
-node_modules
-dist
-dist-ssr
+# Build output
+dist/
+build/
+out/
+.vite/
 *.local
 
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Runtime files
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Env files
+.env
+.env.local
+.env.*.local
+
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
+.vscode/
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage and reports
+coverage/
+reports/
+
+# Testing
+jest-cache/
+.vitest/
+
+# Parcel / Snowpack / Next / Gatsby / other caches
+.cache/
+.next/
+.out/
+.parcel-cache/
+
+# Certificates and keys
+*.pem
+*.key
+
+# Misc
+*.tgz
+*.zip
